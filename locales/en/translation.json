@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": [
+      {
+        "name": "About",
+        "id": "about"
+      },
+      {
+        "name": "Products",
+        "id": "products"
+      },
+      {
+        "name": "Blog",
+        "id": "blog"
+      },
+      {
+        "name": "Contact",
+        "id": "contact"
+      },
+      {
+        "name": "Form Examples",
+        "id": "examples"
+      }
+    ]
+  }
+}

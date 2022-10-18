@@ -1,0 +1,26 @@
+{
+  "header": {
+    "nav": [
+      {
+        "name": "О нас",
+        "id": "about"
+      },
+      {
+        "name": "Продукты",
+        "id": "products"
+      },
+      {
+        "name": "Блог",
+        "id": "blog"
+      },
+      {
+        "name": "Контакты",
+        "id": "contact"
+      },
+      {
+        "name": "Примеры форм",
+        "id": "examples"
+      }
+    ]
+  }
+}
