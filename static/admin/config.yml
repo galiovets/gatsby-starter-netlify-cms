@@ -18,8 +18,8 @@ collections:
     folder: "src/pages/blog"
     label_singular: "Blog-en"
     create: true
-    slug: "{{fields.slug}}"
-    path: "{{templateKey}}/{{language}}"
+    slug: "{{slug}}"
+    path: "{{fields.description}}/{{language}}"
     filter: { field: "language", value: "en" }
     fields:
       - {
