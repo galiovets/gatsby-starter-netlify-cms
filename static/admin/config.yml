@@ -17,7 +17,7 @@ collections:
     label: "Blog"
     folder: "src/pages/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{text}}"
     fields:
       - {
           label: "Template Key",
@@ -26,13 +26,13 @@ collections:
           default: "blog-post",
         }
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Text", name: "text", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
       - { label: "Featured Image", name: "featuredimage", widget: image }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
-      # - { label: "Language", name: "language", widget: "hidden", default: "en" }
       - {
           label: "Language",
           name: "language",
