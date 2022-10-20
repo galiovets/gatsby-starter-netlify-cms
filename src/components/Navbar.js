@@ -8,8 +8,6 @@ const Navbar = () => {
   const { i18n } = useTranslation();
   const { languages, changeLanguage } = useI18next();
   const { nav } = t("header", { returnObjects: true });
-  console.log(nav);
-  console.log(i18n.language);
 
   return (
     <nav

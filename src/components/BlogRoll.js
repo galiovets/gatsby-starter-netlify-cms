@@ -7,8 +7,6 @@ import { useTranslation } from "gatsby-plugin-react-i18next";
 
 const BlogRollTemplate = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
-  console.log("posts", posts);
-  console.log("node", posts);
   const { i18n } = useTranslation();
 
   return (
